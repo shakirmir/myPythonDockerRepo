@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: registrycontainer13.azurecr.io/shakirmir/mypythondockerrepo:latest
+        image: myacr321012new.azurecr.io/shakirmir/mypythondockerrepo:32
         ports:
         - containerPort: 5000
 # service type loadbalancer       
