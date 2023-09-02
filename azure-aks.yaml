@@ -13,7 +13,7 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: mypythondockerrepo
+      - name: testconreg12
         image:  testconreg12.azurecr.io/testconreg12:latest
         ports:
         - containerPort: 5000
