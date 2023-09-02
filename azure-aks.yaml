@@ -13,8 +13,8 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: testconreg12
-        image: testconreg12.azurecr.io/testconreg12:latest
+      - name: shakircontainer
+        image: testconreg12.azurecr.io/testconreg12:169
         ports:
         - containerPort: 5000
 # service type loadbalancer       
