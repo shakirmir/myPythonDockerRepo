@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: youtubeimagerepo
-        image: tubecloneacr.azurecr.io/youtubeimagerepo:$(RELEASE.ARTIFACTS._container-aks-deploy-CI_.BUILDID)
+        image: tubecloneacr.azurecr.io/youtubeimagerepo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
