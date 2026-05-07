@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: youtubeimagerepo
-        image: tubecloneacr.azurecr.io/youtubeimagerepo:$(Build.BuildId)
+        image: tubecloneacr.azurecr.io/youtubeimagerepo:#{Build.BuildId}#
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
