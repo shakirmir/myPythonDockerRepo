@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: youtubeimagerepo
-        image: tubecloneacr.azurecr.io/youtubeimagerepo:latest
+        image: tubecloneacr.azurecr.io/youtubeimagerepo:219
         ports:
         - containerPort: 5000
 # service type loadbalancer       
