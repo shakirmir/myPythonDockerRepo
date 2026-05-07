@@ -13,8 +13,8 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: shakircontainer
-        image: testconreg12.azurecr.io/testconreg12:169
+      - name: youtubeimagerepo
+        image: tubecloneacr.azurecr.io/youtubeimagerepo:213
         ports:
         - containerPort: 5000
 # service type loadbalancer       
